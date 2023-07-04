@@ -8,4 +8,4 @@ def main(s):
     """
     a = s[0:3]
     return a
-print(main("codeschool"))
+print(main("codeschooluz"))
