@@ -9,4 +9,4 @@ def main(s):
     a = s[0]
 
     return a
-print(main("python"))
+print(main("code"))
