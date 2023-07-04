@@ -8,4 +8,4 @@ def main(s):
     """
     a = s[1]
     return a
-print(main("python"))
+print(main("codeacademya"))
