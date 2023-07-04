@@ -6,8 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    if s[0]=="0" or s[0]=="1" or s[0]=="2" or s[0]=="3" or s[0]=="4" or s[0]=="5" or s[0]=="6":
-        return int(s)
+    if s[0].isdigit():
+    #if s[0]=="0" or s[0]=="1" or s[0]=="2" or s[0]=="3" or s[0]=="4" or s[0]=="5" or s[0]=="6":
+        return int(s[0])
     
     return -1
 print(main("4"))
