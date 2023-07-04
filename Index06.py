@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    sum=s[0]+s[-1]
+    return sum
+print(main("good"))
